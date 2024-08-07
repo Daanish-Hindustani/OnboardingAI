@@ -9,7 +9,7 @@ const Navbar = () => {
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">OnBoardingAI</span>
         </a>
        
-            <div className="flex-grow flex justify-center items-center space-x-20 rtl:space-x-reverse hidden md:flex">
+            <div className="flex-grow flex justify-center items-center space-x-20 rtl:space-x-reverse md:flex">
                 <NavElements icon="https://img.icons8.com/?size=100&id=83986&format=png&color=FFFFFF"/>
                 <NavElements icon="https://img.icons8.com/?size=100&id=JnHXhz9KQ8RC&format=png&color=FFFFFF"/>
                 <NavElements icon="https://flowbite.com/docs/images/logo.svg"/>
