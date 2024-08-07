@@ -10,6 +10,7 @@ export default function admin() {
 <section className="flex w-screen justify-between items-center">
   <div className=" justify-start">
     <NameComponent />
+    
   </div>
   <div className="flex justify-center w-full">
     <SearchBar />
