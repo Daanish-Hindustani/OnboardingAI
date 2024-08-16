@@ -28,8 +28,12 @@ const Navbar = () => {
         </Link>
        
             <div className="flex-grow flex justify-center items-center space-x-20 rtl:space-x-reverse md:flex">
-                <NavElements icon="https://img.icons8.com/?size=100&id=83986&format=png&color=FFFFFF"/>
-                <NavElements icon="https://img.icons8.com/?size=100&id=JnHXhz9KQ8RC&format=png&color=FFFFFF"/>
+                <Link href={`/${userType}/1/dashboard`}>
+                    <NavElements icon="https://img.icons8.com/?size=100&id=83986&format=png&color=FFFFFF"/>
+                </Link>
+                <Link href={`/${userType}/1/docs-dashboard`}>
+                    <NavElements icon="https://img.icons8.com/?size=100&id=JnHXhz9KQ8RC&format=png&color=FFFFFF"/>
+                </Link>
                 <NavElements icon="https://flowbite.com/docs/images/logo.svg"/>
             </div>
             
